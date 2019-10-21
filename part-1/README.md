@@ -1,7 +1,7 @@
 
 # CSS Minis Part 1
 
-## Objectives
+## SWBAT
 
 * Discuss what CSS does and why it's important
 * Differentiate between inline, internal, and external stylesheets
@@ -13,6 +13,12 @@
 * What is it?
 * What Does it Do?
 
+## Examples
+
+- [CSS Zen Garden](http://www.csszengarden.com/)
+- [Geocitiesizer] (https://www.wonder-tonic.com/geocitiesizer/)
+- [Ling's] (https://www.lingscars.com/)
+
 ## Stylesheets and Selectors
 
 How do we add CSS to our HTML page?
@@ -22,7 +28,7 @@ How do we add CSS to our HTML page?
   - <style><style/>
 * External import external page
   - < link rel="stylesheet" href="styles.css" >
-
+  
 Colors?
 * Names "green"
 * RGB rgb(0, 255, 0)
