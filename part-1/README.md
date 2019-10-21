@@ -10,6 +10,9 @@
 
 ## CSS Basics
 
+Cascading Style Stylesheets
+Make stuff pretty /responsive
+
 * What is it?
 * What Does it Do?
 
@@ -23,37 +26,32 @@
 
 How do we add CSS to our HTML page?
 * Inline
-  - style="color: green"
+  - <h1 style='background-color: green; color: red'></h1>
 * Internal
   - <style><style/>
 * External import external page
   - < link rel="stylesheet" href="styles.css" >
-  
-Colors?
-* Names "green"
-* RGB rgb(0, 255, 0)
-* Hex Codes #00FF00
 
 
-Types of CSS selectors
+Types of CSS selectors & their hierarchy
 * HTML tags/elements
 * Classes
 * IDs
 
 ```
 Element Selector:
-body {
-  text-align: center;
+ul li {
+  color: black;
 }
 
 Class Selector:
-.navbar {
-  margin-bottom: 0px;
+.list-item {
+  color: red;
 }
 
 ID Selector:
-#main-page-title {
-  font-family: sans-serif;
+#list-item {
+  color: green;
 }
 
 ```

@@ -1,43 +1,17 @@
-.container {
-    width: 400px;
-    margin: auto;
-    background: #eee;
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 5px 5px 0 0;
-    box-shadow: 5px 7px 15px #ccc;
+h1 {
+  color: green;
 }
-
-.container img {
-    width: 100%;
-    border-radius: 5px 5px 0 0;
+.headline {
+  color: red;
 }
-
-.content {
-    padding: 10px;
-    text-align: center;
-    font-family: sans-serif;
+#headline {
+  color: blue;
+  background-color: pink;
 }
-
-.content h3 {
-    color: #777;
-}
-
-.content button {
-    padding: 10px 20px;
-    margin-bottom: 10px;
-    background: coral;
-    font-size: 15px;
-    color: #fff;
-    outline: none;
-    border-radius: 20px;
-    border: none;
-    box-shadow: 3px 5px 10px #ccc;
-    transition: all .2s;
-}
-
-.content button:hover {
-    background: orangered;
+.text-box {
+  height: 120px;
+  width: 120px;
+  background-color: turquoise;
+  border: 20px yellow solid;
+  padding: 20px 50px 75px 100px;
 }
