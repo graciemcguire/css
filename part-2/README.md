@@ -1,22 +1,25 @@
 
-# CSS Minis - Part 1: Intro & Box Model
-
+# CSS Minis - Part 2: Positioning & Display
 
 
 ## SWBAT
 
-* Discuss what CSS does and why it's important
-* Differentiate between inline, internal, and external stylesheets
-* Understand how to use class, id, and element selectors, and selector order of importance
-* Demonstrate the use of the box model
+* Differentiate between position properties (static, relative, absolute, fixed, sticky)
 
-## CSS Basics
 
-Cascading Style Stylesheets
-Make stuff pretty /responsive
+## Position Properties
 
-* What is it?
-* What Does it Do?
+* Static
+  - Default property
+* Relative
+  - Positioned relative to it's  
+* Absolute
+  -
+* Fixed
+  -
+* Sticky
+  -
+
 
 ## Examples
 

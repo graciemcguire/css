@@ -1,0 +1,17 @@
+h1 {
+  color: green;
+}
+.headline {
+  color: red;
+}
+#headline {
+  color: blue;
+  background-color: pink;
+}
+.text-box {
+  height: 120px;
+  width: 120px;
+  background-color: turquoise;
+  border: 20px yellow solid;
+  padding: 20px 50px 75px 100px;
+}
