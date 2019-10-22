@@ -29,24 +29,48 @@
 ## Flexbox
 
 One-dimensional system (row or column based)
+- Flex Container
+- Flex Items
+- Main Axis
+- Cross Axis
 
-.header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
+* Flex Container
+- `display: flex || inline-flex` allows us to use flexbox in this container
+- `flex-direction: column || row` defaults to column, dictates which direction flexbox goes
+- `flex-wrap: nowrap || wrap` defaults to nowrap, dictates if we use single or multiple lines
+- `flex-flow: row wrap` combines flex-wrap and flex-direction  
+- `justify-content: flex-start || center || space-between || space-around  || space-evenly || flex-end` allows us to align items along the main axis of the current line of the flex-container (beginning of line, center, end, etc.)
+- `align-items: stretch || flex-start || flex-end || center || baseline` similar to justify-content, but allows us to align items along the cross axis
+-`align-content: stretch || flex-start || flex-end || center || space-between || space-around` similar to justify-content, but used when there is extra space on the cross axis
+
+* Flex Items
+- `order: 0 (number)` allows us to order elements in a row or column without changing the HTfML code
+- `align-self: stretch || flex-start || flex-end || center || baseline` if you want to over ride the container alignment for one item
+- `flex-grow: 0 (number)` define a size specific to that element
+- `flex-basis: 1 (length)`  define a size specific to that element
+- `flex-shrink: auto (number)`  define a size specific to that element
+- `flex: 0 1 auto` grow, basis, shrink shortened to one line
+
 Some properties of flexbox include:
 
 justify-content - aligns items along the main axis
-Can specify flex-end, flex-start, center, space-between, space-around
-align-items - aligns items along the cross axis
-Can specify flex-end, flex-start, center, baseline, stretch
+Can specify f - aligns items along the cross axis
+
+Can specify:
+
+flex-end, flex-start, center, baseline, stretch
 flex-direction - choose the direction of items along the main axis
-Can specify row, row-reverse, column, column-reverse
+
+Can specify:
+
+row, row-reverse, column, column-reverse
 flex-wrap - choose whether items must remain on single lines or if they can wrap to new lines
-Can specify nowrap, wrap, wrap-reverse
+
+Can specify:
+
+nowrap, wrap, wrap-reverse
 flex-flow - combines flex-direction and flex-wrap
+
 You can also align specific flex items along the cross axis with align-self  
 
 ## Grid
