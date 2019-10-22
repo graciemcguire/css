@@ -11,66 +11,19 @@
 
 * Static
   - Default property
+  - Are not affected by the top, bottom, left, and right properties
 * Relative
-  - Positioned relative to it's  
+  - Positioned relative to it's normal position
+  - The top, right, bottom, and left properties are used to position the element
 * Absolute
-  -
+  - Positioned relative to the nearest    positioned ancestor
 * Fixed
-  -
+  - Positioned relative to the viewport - always stays in the same place even when page
+    is scrolled
+  - The top, right, bottom, and left properties are used to position the element
 * Sticky
-  -
+  - Positioned based on the user's scroll position
 
-
-## Examples
-
-- [CSS Zen Garden](http://www.csszengarden.com/)
-- [Geocitiesizer] (https://www.wonder-tonic.com/geocitiesizer/)
-- [Ling's] (https://www.lingscars.com/)
-
-## Stylesheets and Selectors
-
-How do we add CSS to our HTML page?
-* Inline
-  - <h1 style='background-color: green; color: red'></h1>
-* Internal
-  - <style><style/>
-* External import external page
-  - < link rel="stylesheet" href="styles.css" >
-
-
-Types of CSS selectors & their hierarchy
-* HTML tags/elements
-* Classes
-* IDs
-
-```
-Element Selector:
-ul li {
-  color: black;
-}
-
-Class Selector:
-.list-item {
-  color: red;
-}
-
-ID Selector:
-#list-item {
-  color: green;
-}
-
-```
-
-## The Box Model
-
-* What is the box model?
-
-
-4 Elements of the box model:
-* Content - The content of the box, where text and images appear
-* Padding - Clears an area around the content. The padding is transparent
-* Border - A border that goes around the padding and content
-* Margin - Clears an area outside the border. The margin is transparent
 
 ## Resources
 

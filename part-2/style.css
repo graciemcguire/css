@@ -1,17 +1,27 @@
-h1 {
-  color: green;
+.container {
+   height: 200vh;
+   width: 600px;
+   background-color: green;
 }
-.headline {
-  color: red;
+.box {
+  width: 350px;
+  height: 100px;
+  font-size: 25px;
+  color: #fff;
 }
-#headline {
-  color: blue;
-  background-color: pink;
+.box-1 {
+  background-color: purple;
+  position: relative;
+  left: -20px;
+  top: 20px;
 }
-.text-box {
-  height: 120px;
-  width: 120px;
-  background-color: turquoise;
-  border: 20px yellow solid;
-  padding: 20px 50px 75px 100px;
+
+.box-2 {
+  background-color: royalblue;
+  
+
+}
+
+.box-3{
+  background-color: red;
 }
