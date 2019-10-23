@@ -99,5 +99,3 @@ You can also target specific elements within the grid and specify where there sh
 - [CSS Zen Garden](http://www.csszengarden.com/)
 - [Flexbox Froggy](https://flexboxfroggy.com/)
 - [CSS Grid Garden](http://cssgridgarden.com/)
-- [DaFont](http://DaFont.com/)
-- [Lost Type](http://losttype.com/)
