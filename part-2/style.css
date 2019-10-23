@@ -1,18 +1,22 @@
 .container {
-   height: 200vh;
-   width: 600px;
+   height: 100vh;
+   width: 100vw;
    background-color: green;
+   /* display: flex;
+   flex-wrap: wrap;
+   flex-direction: row; */
 }
 .box {
-  width: 100px;
-  height: 100px;
+  width: 20vh;
+  height: 20vh;
   font-size: 25px;
   color: #fff;
-  /* position: fixed; */
-  
+  position: fixed;
+
 }
 .box-1 {
   background-color: purple;
+  position: sticky;
   /* left: -20px;
   height:200px; */
   /* top: 10px; */
@@ -29,4 +33,7 @@
 
 .box-3{
   background-color: red;
+}
+p {
+  z-index: -1
 }
