@@ -20,8 +20,7 @@
   - Positioned relative to the nearest    positioned ancestor
   - When you assign a position to absolute it jumps out from the normal flow of the page
 * Fixed
-  - Positioned relative to the viewport - always stays in the same place even when page
-    is scrolled
+  - Positioned relative to the viewport - always stays in the same place even when page is scrolled
   - The top, right, bottom, and left properties are used to position the element
 * Sticky
   - Positioned based on the user's scroll position
